@@ -185,7 +185,7 @@ export default function Home() {
                           <div className="mt-4 flex justify-between">
                             <button
                               onClick={() =>
-                                navigate("/bookingform", {
+                                navigate("/Doctor-directory/bookingform", {
                                   state: { selectedDoctor: selectedDoctor },
                                 })
                               }

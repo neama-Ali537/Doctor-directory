@@ -29,7 +29,7 @@ export default function BookingForm() {
     const saveDate = JSON.parse(localStorage.getItem("appointment")) || [];
     localStorage.setItem("appointment", JSON.stringify([...saveDate, data]));
     alert("Your appointment has been booked successfully");
-    navigate("/appointments");
+    navigate("/Doctor-directory/appointments");
   };
   return (
     <>
